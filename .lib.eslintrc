@@ -10,7 +10,9 @@
     "no-empty": "off",
     "node/no-unsupported-features/node-builtins": "off",
     "no-func-assign": "off",
-    "no-global-assign": ["error", {"exceptions": ["exports"]}]
+    "no-global-assign": ["error", {"exceptions": ["exports"]}],
+    "no-fallthrough": "off",
+    "no-constant-condition": "off"
   },
   "overrides": [
     {
